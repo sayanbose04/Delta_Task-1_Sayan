@@ -11,7 +11,7 @@ The game is named as: "SEQUENCE SAFARI".
 
 ## Features of the Game
 
-- The grid size for the gaem is 20 x 20.
+- The grid size for the game is 20 x 20.
 - The snake size keeps on increasing as it continues to eat the food in the form of colored blocks.
 - The score of the player increases by 1 as the snake eats each colored block.
 - On-Screen direction controls have been provided to steer the snake in all the four directions.
@@ -30,21 +30,21 @@ The game is named as: "SEQUENCE SAFARI".
 #### General Docs
 
 | Ref.   | Description |
-| :-------- | :------- | :------------------------- |
+| :--------  | :------------------------- |
 |  [MDN Docs](https://developer.mozilla.org/en-US/)|   Mozilla developer resources for html,css and js. |
 |  [Odin Project](https://www.theodinproject.com/)|   An encyclopedia for web developers. |
 
 #### HTML & CSS
 
-| Ref.   || Description                |
-| :-------- | :------- | :------------------------- |
+| Ref.   | Description                |
+| :--------  | :------------------------- |
 |  [MDN-HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)|   HTML Reference |
 |  [MDN-CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)|   CSS Reference |
 
 #### Java Script
 
-| Ref.   || Description                |
-| :-------- | :------- | :------------------------- |
+| Ref.   | Description                |
+| :-------- | :------------------------- |
 |  [MDN-JS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)|   JS Reference |
 |  [MDN-DOM Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)|   Reference to Document_Object_Model by MDN |
 
