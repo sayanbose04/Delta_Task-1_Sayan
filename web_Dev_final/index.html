@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/title_logo.jpg">
+    <title>Web Dev Task</title>
+    <!--linking the css file-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="body">
+        <!--controlling the score box in the game-->
+        <div id="scoreBox">Score: 0</div>
+
+        <!--controlling the high score box-->
+        <div id="hiscoreBox">High Score: 0</div>
+
+        <!--controlling the snake game board-->
+        <div id="board"></div>
+
+        <!--controlling the heading of the game-->
+        <div id="heading">Snake Mania</div>
+
+        <!--for the control buttons-->
+        <div class="controls">
+            <button data-key="ArrowUp" class="up">Up</button>
+            <button data-key="ArrowDown" class="down">Down</button>
+            <button data-key="ArrowLeft" class="left">Left</button>
+            <button data-key="ArrowRight" class="right">Right</button>
+        </div>
+
+        <!--for the timer-->
+        <p id="container">01:00</p>
+            
+    </div>
+</body>
+<!--linking the js file-->
+<script src="js/index.js"></script>
+</html>

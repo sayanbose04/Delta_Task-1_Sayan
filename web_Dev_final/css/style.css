@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background: url(../img/forest.jpg);
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    background: linear-gradient(rgb(109, 192, 109),rgb(211, 211, 72));
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+    top: 150px;
+    font-size: 90px;
+    transition: 0.5s;
+}
+#heading{
+    background: linear-gradient(rgb(109, 192, 109),rgb(211, 211, 72));
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 10px;
+    top:10px;
+    align-content: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:30px;
+}
+#scoreBox{
+   background: linear-gradient(rgb(109, 192, 109),rgb(211, 211, 72));
+   border: 2px solid black;
+   border-radius: 10px;
+    position: fixed;
+    top: 25px;
+    left: 30px;
+    font-size: 35px;
+    font-weight: bolder ;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+#hiscoreBox{
+    background: linear-gradient(rgb(109, 192, 109),rgb(211, 211, 72));
+    border: 2px solid black;
+    border-radius: 10px;
+    border-width: 2px;
+    position:fixed;
+    top: 80px;
+    left: 30px;
+    
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+.up{
+    background: rgb(108, 216, 165);
+    border: 2px solid black;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 10px;
+    align-content: center;
+    position: absolute;
+    bottom: 295px;
+    right:130px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.up:hover{
+    background: linear-gradient(rgb(115, 216, 115),rgb(214, 214, 124),rgb(102, 102, 187));
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.down{
+    background: rgb(108, 216, 165);
+    border: 2px solid black;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 10px;
+    align-content: center;
+    position: absolute;
+    bottom: 220px;
+    right:110px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.down:hover{
+    background: linear-gradient(rgb(115, 216, 115),rgb(214, 214, 124),rgb(102, 102, 187));
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.left{
+    background: rgb(108, 216, 165);
+    border: 2px solid black;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 10px;
+    align-content: center;
+    position: absolute;
+    bottom: 260px;
+    right: 190px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.left:hover{
+    background: linear-gradient(rgb(115, 216, 115),rgb(214, 214, 124),rgb(102, 102, 187));
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.right{
+    background: rgb(108, 216, 165);
+    border: 2px solid black;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 10px;
+    align-content: center;
+    position: absolute;
+    bottom: 260px;
+    right:40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.right:hover{
+    background: linear-gradient(rgb(115, 216, 115),rgb(214, 214, 124),rgb(102, 102, 187));
+    opacity: 0.7;
+    transition: 0.5s;
+}
+#board{
+    background: linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167));
+    
+    bottom: 10px;
+    width: 80vmin;
+    height: 80vmin;
+    border: 3px solid black;
+    border-radius: 2px;
+    display: grid;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+}
+.head{
+    background: lightpink;
+    border: 2px solid rgb(34, 4, 34); 
+    transform: scale(1.2);
+    border-radius: 9px;
+}
+.snake{
+    background-color: purple;
+    border: .25vmin solid white;
+    border-radius: 12px;
+}
+.food{
+    background: blue;
+    border: .25vmin solid black;
+    border-radius: 8px;
+}
